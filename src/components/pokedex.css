@@ -1,0 +1,56 @@
+.pokedex > h1 {
+    text-transform: uppercase;
+}
+
+.pokedex > p {
+    text-transform: uppercase;
+}
+
+.pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pokemon-character-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.input-pokemon {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 300px;
+    padding-left: .5rem;
+    padding-bottom: .3rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: lowercase;
+}
+
+.select-pokemon {
+    width: 300px;
+    outline: none;
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.493);
+    padding-left: .5rem;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+svg {
+    font-size: 1rem;
+    cursor: pointer;
+}

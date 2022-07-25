@@ -1,0 +1,13 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    width: 100%;
+    gap: 1REM;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 4rem;
+}
+
+.ash-image {
+    width: 200px;
+}
+
+.input-name {
+    outline: none;
+    height: 30px;
+    border: none;
+    padding-left: 0.4rem;
+    width: 300px;
+    font-family: 'Lato', sans-serif;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.button {
+    margin-left: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button svg {
+    font-size: 1rem;
+}
